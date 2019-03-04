@@ -435,7 +435,6 @@ function specified_grade_parser(string $http_response){
 function specified_schedule_parser(string $http_response){
 
     $courses_content = get_content_by_tag_and_id($http_response, "table", "Table1");
-//    $courses = explode("<br><br>");
 
     $array = extract_schedule_table_parser($courses_content);
 
