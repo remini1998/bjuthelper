@@ -1,3 +1,5 @@
+<?php
+
 defined('LOCK') or exit('Access Invalid!');
 
-$TOKEN = "";
+const APP_KEY = "BJUT23333"; // 请使用者一定要自行修改！
