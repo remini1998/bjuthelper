@@ -8,6 +8,8 @@
  * Time: 11:28 AM
  */
 
+defined('LOCK') or exit('Access Invalid!');
+
 include_once("parser.php");
 
 

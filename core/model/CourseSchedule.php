@@ -6,6 +6,8 @@
  * Time: 7:08 PM
  */
 
+defined('LOCK') or exit('Access Invalid!');
+
 class CourseSchedule
 {
     public $name;       //课程名称

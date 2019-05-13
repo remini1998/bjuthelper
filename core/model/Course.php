@@ -6,6 +6,8 @@
  * Time: 4:02 PM
  */
 
+defined('LOCK') or exit('Access Invalid!');
+
 /**
  * Class Course 用于记录获取所有课程时单个课程的Bean。顺序按数组顺序排列
  */

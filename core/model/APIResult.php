@@ -6,6 +6,8 @@
  * Time: 8:40 AM
  */
 
+defined('LOCK') or exit('Access Invalid!');
+
 class APIResult
 {
     public $err = 0;

@@ -6,6 +6,8 @@
  * Time: 22:12
  */
 
+define('LOCK', true);
+
 /** Absolute path to the directory. */
 if ( ! defined( 'ABSPATH' ) ) {
     define( 'ABSPATH', dirname( __FILE__ ) . '/' );

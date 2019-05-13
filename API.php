@@ -6,6 +6,8 @@
  * Time: 8:38 AM
  */
 
+define('LOCK', true);
+
 include_once("core/BJUTHelper.php");
 include_once("core/model/APIResult.php");
 include_once("core/utils.php");

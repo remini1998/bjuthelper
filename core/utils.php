@@ -6,6 +6,8 @@
  * Time: 11:05 PM
  */
 
+defined('LOCK') or exit('Access Invalid!');
+
 function get_content_by_tag_and_id(string $content, string $tag, string $id){
     preg_match('/<'.$tag.' (.*?)id=\"'.$id.'\"(.*?)>(.*?)<\/'.$tag.'>/is', $content, $mat);
     return $mat[3];

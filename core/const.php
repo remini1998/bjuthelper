@@ -6,6 +6,8 @@
  * Time: 5:44 PM
  */
 
+defined('LOCK') or exit('Access Invalid!');
+
 $years = [
     "2018-2019",
     "2017-2018",

@@ -1,4 +1,7 @@
 <?php
+
+defined('LOCK') or exit('Access Invalid!');
+
 include_once ("model/Course.php");
 include_once ("model/CourseDetailed.php");
 include_once ("model/CourseSchedule.php");

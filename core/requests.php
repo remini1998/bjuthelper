@@ -1,5 +1,7 @@
 <?php
 
+defined('LOCK') or exit('Access Invalid!');
+
 /**
  * 该文件内记录网络层请求
  * 该文件中函数返回值均为请求发出后获得的带有header的全文本内容

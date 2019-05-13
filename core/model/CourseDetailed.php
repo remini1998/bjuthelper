@@ -6,6 +6,8 @@
  * Time: 4:02 PM
  */
 
+defined('LOCK') or exit('Access Invalid!');
+
 class CourseDetailed
 {
     public $year;           //学年

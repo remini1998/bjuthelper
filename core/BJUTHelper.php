@@ -5,6 +5,9 @@
  * Date: 2018/10/8
  * Time: 8:17 AM
  */
+
+defined('LOCK') or exit('Access Invalid!');
+
 include_once ("http.php");
 include_once ("requests.php");
 include_once ("parser.php");
