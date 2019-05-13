@@ -8,6 +8,11 @@
 
 define('LOCK', true);
 
+include_once("security.php");
+if (!check_authority()){
+    exit('ACCESS DENIED!');
+}
+
 include_once("core/BJUTHelper.php");
 include_once("core/model/APIResult.php");
 include_once("core/utils.php");
@@ -16,7 +21,7 @@ header('Content-type: application/json; charset=utf-8');
 
 include_once ("core/const.php");
 
-$action=get_argument("action");
+$action = get_argument("action");
 
 if($action){
     switch ($action){
